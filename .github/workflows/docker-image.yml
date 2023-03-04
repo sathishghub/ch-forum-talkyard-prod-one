@@ -17,6 +17,9 @@ jobs:
     - name: Check docker-compose version
       run:  docker-compose -v
     - name: Run docker compose build  
-      run:  docker-compose build 
+      run:  docker-compose build
+    - name: run docker-compose up
+      run:  docker-compose up
     - name: show running docker
       run:  docker-compose ps
+      
